@@ -16,15 +16,39 @@
             <p>How can we improve our service?</p>
             <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments.."></textarea>
             <p>
-                Your favorite genre: <br>
-                <input type="radio" name="genre" value="rock" >
+                Your favorite genre: <br />
+                <input type="radio" name="genre" value="rock" />
                 Rock
-                <input type="radio" name="genre" value="pop" >
+                <input type="radio" name="genre" value="pop" />
                 Pop
-                <input type="radio" name="genre" value="jazz" >
-                Jazz 
+                <input type="radio" name="genre" value="jazz" />
+                Jazz
             </p>
-            
+            <p>
+                Music services you use:
+                <br />
+                <input type="checkbox" name="service" value="iTunes" />
+                iTunes
+                <input type="checkbox" name="service" value="Last.fm" />
+                Last.fm
+                <input type="checkbox" name="service" value="Spotify" />
+                Spotify
+            </p>
+            <p>
+                What device do you listen to music on:
+                <br />
+                <select name="devices">
+                    <option value="phone" selected="selected">Phone</option>
+                    <option value="radio">Radio</option>
+                    <option value="PC">Computer</option>
+                </select>
+            </p>
+            <p>
+                Upload your song in MP3 format:
+                <br />
+                <input type="file" name="user-somg" />
+                <input type="submit" value="upload" />
+            </p>
         </form>
     </body>
 </html>
