@@ -9,3 +9,13 @@ h1, h2 {
  p {
     color: dimgray ;
  }
+
+ input.submit{
+    color: brown;
+ }
+
+ input.submit:hover{
+    background-color: cornflowerblue;
+ }
+
+ 
