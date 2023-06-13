@@ -6,35 +6,35 @@
     </head>
     <body>
         <h2>Welcome to Computer Science @ MHS</h2>
-        <p>Please complete the following form.</p>
+        <p class="intro">Please complete the following form.</p>
         <hr />
         <form action="mailto:jhecht@student.mamkschool.org" method="post" enctype="multipart/form-data" name="EmailForm">
             <h3>Demographic Information</h3>
             <p>
                 First Name:
-                <input type="text" name="firstName" size="15" maxlength="30" required="required" />
+                <input type="text" name="firstName" size="15" maxlength="30" required="required" placeholder="First Name" class="text" />
                 Last Name:
-                <input type="text" name="lastName" size="15" maxlength="30" required="required" />
+                <input type="text" name="lastName" size="15" maxlength="30" required="required" placeholder="Last Name" class="text" />
             </p>
             <p>
                 Username:
-                <input type="email" name="username" size="15" maxlength="30" required="required" placeholder="example@domain.com" />
+                <input type="email" name="username" size="15" maxlength="30" required="required" placeholder="example@domain.com" class="text" />
                 Password:
-                <input type="password" name="password" size="15" maxlength="16" required="required" />
+                <input type="password" name="password" size="15" maxlength="16" required="required" placeholder="Password" class="text" />
             </p>
             <p>
                 Date of Birth:
-                <input type="date" name="DOB" required="required" />
+                <input type="date" name="DOB" required="required" class="text" />
             </p>
             <hr />
             <h3>Class Information</h3>
             <p>
                 Class:
                 <select name="class">
-                    <option value="ECS">Exploring Computer Science</option>
-                    <option value="IJP">Intro to Java Program</option>
-                    <option value="APCS">AP Computer Science</option>
-                    <option value="CDL">Collaborative Design Lab</option>
+                    <option value="ECS" class="text">Exploring Computer Science</option>
+                    <option value="IJP" class="text">Intro to Java Program</option>
+                    <option value="APCS" class="text">AP Computer Science</option>
+                    <option value="CDL" class="text">Collaborative Design Lab</option>
                 </select>
             </p>
             <p>
@@ -66,9 +66,9 @@
             <p>
                 What are you most excited about for the school year?
                 <br />
-                <textarea name="comments" cols="75" rows="7" placeholder="Enter your comments here..."></textarea>
+                <textarea name="comments" cols="75" rows="7" placeholder="Enter your comments here..." class="text"></textarea>
             </p>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" class="submit" />
         </form>
     </body>
 </html>
